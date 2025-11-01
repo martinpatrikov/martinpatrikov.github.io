@@ -17,16 +17,21 @@ const GitHubPagesRedirect = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // If the URL contains a query string with a path (from 404.html redirect)
-    // e.g., /?/projects -> /projects
-    const search = window.location.search;
-    if (search.includes('?/')) {
-      const path = search.split('?/')[1];
-      if (path) {
-        // Convert ~and~ back to &, decode URI, and navigate
-        const decodedPath = decodeURIComponent(path.replace(/~and~/g, '&').split('#')[0]);
-        navigate(decodedPath + window.location.hash, { replace: true });
+    try {
+      // If the URL contains a query string with a path (from 404.html redirect)
+      // e.g., /?/projects -> /projects
+      const search = window.location.search;
+      if (search.includes('?/')) {
+        const path = search.split('?/')[1];
+        if (path) {
+          // Convert ~and~ back to &, decode URI, and navigate
+          const decodedPath = decodeURIComponent(path.replace(/~and~/g, '&').split('#')[0]);
+          navigate(decodedPath + window.location.hash, { replace: true });
+        }
       }
+    } catch (error) {
+      // Silently handle redirect errors
+      console.error('GitHub Pages redirect error:', error);
     }
   }, [navigate]);
 

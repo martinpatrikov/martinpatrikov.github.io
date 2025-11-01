@@ -13,7 +13,7 @@ const Navigation = () => {
             to="/" 
             className="text-lg font-semibold hover:text-primary transition-colors"
           >
-            matteo mendicini
+            martin patrikov
           </Link>
           
           <div className="flex gap-8">

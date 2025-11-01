@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
           
           <p className="text-sm text-muted-foreground">
-            © 2024 Matteo Mendicini. All rights reserved.
+            © 2025 Martin Patrikov. All rights reserved.
           </p>
         </div>
       </div>

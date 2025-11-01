@@ -141,7 +141,10 @@ const Extracurricular = () => {
             <>
               <DialogHeader>
                 <DialogTitle className="text-2xl flex items-center gap-3">
-                  {selectedActivity.icon ? <selectedActivity.icon className="w-6 h-6 text-primary" /> : <Users className="w-6 h-6 text-primary" />}
+                  {(() => {
+                    const DialogIcon = selectedActivity.icon || Users;
+                    return <DialogIcon className="w-6 h-6 text-primary" />;
+                  })()}
                   {selectedActivity.organization}
                 </DialogTitle>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground pt-2">

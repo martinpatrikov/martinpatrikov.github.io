@@ -36,6 +36,25 @@ const projects: Project[] = [
     technologies: "Architected and developed from the ground up using Python. Implemented custom matching algorithms and order book management systems. Currently evolving into a robust backtesting environment for personal quantitative strategy development.",
     githubLink: "https://github.com"
   },
+  {
+    title: "BSIC Quantitative Library",
+    description: "Enterprise-grade Python library for data acquisition, ETL processing, and statistical analysis designed for the Bocconi Students Investment Club.",
+    tags: ["Python", "AWS", "CI/CD", "Data Engineering", "Quantitative Finance"],
+    link: "#",
+    details: "Developed a comprehensive quantitative analysis library for BSIC that streamlines portfolio analysis across equity and fixed-income markets. The library provides a complete data pipeline from acquisition to analysis, enabling club members to focus on strategy development rather than data infrastructure.",
+    features: [
+      "Automated data crawlers for financial market data acquisition",
+      "Complete ETL pipeline with data cleaning and transformation",
+      "AWS S3 integration for scalable data storage and retrieval",
+      "Statistical analysis functions for portfolio optimization",
+      "Full CI/CD pipeline with automated testing and deployment",
+      "Python library interface for easy data access by club members",
+      "Support for both equity and fixed-income market analysis",
+      "Automated data updates and version control"
+    ],
+    technologies: "Built with Python using modern data engineering practices. Implements automated data crawlers, comprehensive ETL processes using pandas and numpy, AWS S3 for cloud storage, and GitHub Actions for CI/CD. The library follows best practices for code quality, documentation, and maintainability, making it easy for club members to download and integrate into their own analysis workflows.",
+    githubLink: "https://github.com"
+  },
 ];
 
 const Projects = () => {

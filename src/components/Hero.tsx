@@ -1,5 +1,4 @@
 import profileImage from "@/assets/Marto_PROM_25_2465854_Original copy.jpg";
-import { Mail, Phone, MapPin } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -22,33 +21,6 @@ const Hero = () => {
             
             <p className="text-base text-muted-foreground max-w-xl leading-relaxed">
               Economics and Computer Science student at Bocconi University. Passionate about quantitative finance, algorithmic trading, and solving complex problems.
-            </p>
-            
-            <div className="space-y-2 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4" />
-                <a href="mailto:martin.patrikov@gmail.com" className="hover:text-primary transition-colors">
-                  martin.patrikov@gmail.com
-                </a>
-              </div>
-              <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4" />
-                <a href="tel:+359988737456" className="hover:text-primary transition-colors">
-                  +359 988 737 456
-                </a>
-              </div>
-              <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4" />
-                <span>via Ruggero Bonghi 11, Milan</span>
-              </div>
-            </div>
-            
-            <p className="text-muted-foreground pt-2">
-              Check out my{" "}
-              <a href="/writings" className="text-primary hover:underline transition-all hover:text-primary/80">
-                writings
-              </a>
-              !
             </p>
           </div>
           

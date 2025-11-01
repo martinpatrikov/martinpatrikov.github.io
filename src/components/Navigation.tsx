@@ -16,7 +16,7 @@ const Navigation = () => {
             martin patrikov
           </Link>
           
-          <div className="flex gap-8">
+          <div className="flex gap-8 items-center">
             <Link 
               to="/"
               className={`text-sm transition-colors ${
@@ -49,6 +49,14 @@ const Navigation = () => {
             >
               writings
             </Link>
+            <a 
+              href="https://tradeontale.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-primary hover:underline transition-colors"
+            >
+              tradeontale
+            </a>
           </div>
         </div>
       </div>

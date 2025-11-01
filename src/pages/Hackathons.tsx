@@ -11,22 +11,10 @@ interface Hackathon {
 
 const hackathons: Hackathon[] = [
   {
-    name: "ETHGlobal 2024",
-    date: "March 2024",
-    achievement: "Winner - Best DeFi Project",
-    description: "Built a decentralized trading platform with automated market making capabilities.",
-  },
-  {
-    name: "Blockchain Hackathon",
-    date: "November 2023",
-    achievement: "2nd Place",
-    description: "Developed a cross-chain bridge protocol for seamless asset transfers.",
-  },
-  {
-    name: "FinTech Challenge",
-    date: "August 2023",
-    achievement: "Finalist",
-    description: "Created an AI-powered financial advisory tool for crypto investors.",
+    name: "AlgoTrade Hackathon",
+    date: "June 2025",
+    achievement: "1st Place (Undergraduate) • 8th Overall",
+    description: "Participated in a 24-hour high-frequency algorithmic trading competition in Zagreb, Croatia. Developed and deployed real-time trading algorithms using historical futures and options data. Placed 1st among undergraduate teams and 8th overall out of 75 teams.",
   },
 ];
 

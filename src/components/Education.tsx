@@ -21,25 +21,25 @@ interface EducationItem {
 
 const education: EducationItem[] = [
   {
-    school: "Bocconi",
-    degree: "BSc in Economics",
-    period: "2024 - 2027",
+    school: "Bocconi University",
+    degree: "Bachelor of Economics, Management, and Computer Science",
+    period: "Sept 2024 – Present",
     location: "Milan, Italy",
-    description: "Focused on quantitative economics with emphasis on mathematical modeling and statistical analysis.",
-    details: "Studying quantitative economics with emphasis on mathematical modeling and statistical analysis. Developing strong analytical skills through rigorous coursework in mathematics, statistics, and computer science.",
-    coursework: "Data Structures, Algorithms, Graph Theory, Statistics, Calculus, Econometrics, Mathematical Economics, Financial Markets",
+    description: "GPA: 30/30 (with honors); Expected graduation: June 2027",
+    details: "Pursuing a comprehensive degree combining economics, management, and computer science. Currently maintaining a perfect GPA of 30/30 with honors. The program emphasizes quantitative methods, analytical thinking, and computational skills applied to economic and business problems.",
+    coursework: "Advanced Mathematics, Advanced Statistics, Computer Programming, Macroeconomics",
     link: "https://www.unibocconi.eu/",
-    subjects: ["Economics", "Statistics", "Algorithms", "Calculus", "Finance"]
+    subjects: ["Economics", "Management", "Computer Science", "Statistics", "Mathematics"]
   },
   {
-    school: "Previous Institution",
-    degree: "High School Diploma",
-    period: "2020 - 2024",
-    location: "Italy",
-    description: "Comprehensive secondary education with strong emphasis on STEM subjects.",
-    details: "Comprehensive secondary education with strong emphasis on STEM subjects. Participated in various academic competitions and developed foundational skills in programming and quantitative analysis.",
-    coursework: "Advanced Mathematics, Physics, Computer Science, Economics, English, Italian Literature",
-    subjects: ["Mathematics", "Computer Science", "Physics", "Economics"]
+    school: "Sofia High School of Mathematics",
+    degree: "Bulgarian High School Diploma",
+    period: "Sept 2019 – Jun 2024",
+    location: "Sofia, Bulgaria",
+    description: "Best ranked school in Bulgaria; Profiling Mathematics, Informatics, Physics, and History; GPA 6.00/6.00",
+    details: "Attended the best ranked high school in Bulgaria, specializing in Mathematics, Informatics, Physics, and History. Achieved perfect GPA of 6.00/6.00. Finalist of national olympiads in Mathematics and Programming (2019, 2020). Developed strong foundation in quantitative analysis and problem-solving through rigorous academic program and competitive participation.",
+    coursework: "Advanced Mathematics, Informatics, Physics, History, English, Italian",
+    subjects: ["Mathematics", "Informatics", "Physics", "History"]
   },
 ];
 

@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Projects from "@/components/Projects";
+import Extracurricular from "@/components/Extracurricular";
+import AdditionalInfo from "@/components/AdditionalInfo";
 import Footer from "@/components/Footer";
 import SocialLinksBar from "@/components/SocialLinksBar";
 
@@ -18,6 +20,12 @@ const Index = () => {
         <Education />
       </div>
       <Projects />
+      <div className="container mx-auto px-6 py-12">
+        <Extracurricular />
+      </div>
+      <div className="container mx-auto px-6 py-12">
+        <AdditionalInfo />
+      </div>
       <Footer />
       <SocialLinksBar />
     </div>

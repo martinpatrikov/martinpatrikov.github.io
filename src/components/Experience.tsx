@@ -20,33 +20,33 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    company: "Illiquid capital",
-    role: "Founder, Tech Lead",
-    period: "Aug 2021 - Present",
-    description: "Running a fund focused on illiquid markets asset trading like Polymarket and other DeFi protocols.",
-    details: "Founded and lead a specialized trading fund that focuses on illiquid markets including prediction markets (Polymarket) and various DeFi protocols. Developed proprietary tools and algorithms to identify +EV trading opportunities that others miss. Successfully scaled operations to process significant transaction volume while maintaining consistent profitability.",
+    company: "Expat Capital",
+    role: "Analyst Intern",
+    period: "Oct 2023 – Apr 2024",
+    description: "Analyzed geopolitical landscape and forecasted impact on portfolio companies. Investigated potential mergers and acquisitions through financial statement analysis.",
+    details: "Worked as an analyst intern at Expat Capital, contributing to portfolio risk management and investment decision-making processes. Conducted comprehensive geopolitical analysis and developed investment insights through rigorous financial analysis.",
     achievements: [
-      "Processed over $5,000,000 in transaction volume",
-      "Achieved six-figure profits through systematic trading",
-      "Built custom analytics tools for edge detection",
-      "Developed automated trading systems for multiple protocols",
-      "Established risk management frameworks for illiquid assets"
+      "Analyzed geopolitical landscape and forecasted its impact on portfolio companies",
+      "Created bi-weekly reports that influenced portfolio risk management and improved resilience to market shocks",
+      "Investigated potential mergers by analyzing financial statements, uncovering hidden acquisitions, and financial red flags",
+      "Contributed insights that informed investment theses and due diligence workflows"
     ],
-    skills: ["Trading", "DeFi", "Risk Management", "Python", "Data Analysis"]
+    skills: ["Financial Analysis", "Risk Management", "Geopolitical Analysis", "Due Diligence", "Investment Research"]
   },
   {
-    company: "Your Previous Company",
-    role: "Software Engineer",
-    period: "Jan 2020 - Jul 2021",
-    description: "Developed scalable backend systems and APIs. Worked with modern technologies and contributed to multiple high-impact projects.",
-    details: "Worked on building and maintaining large-scale distributed systems, focusing on backend architecture and API development. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+    company: "Quikfox LTD.",
+    role: "Part-Time Junior Developer",
+    period: "Aug 2022 – Mar 2023",
+    description: "Built and maintained cross-platform mobile apps. Improved backend performance through code refactoring and API development.",
+    details: "Worked as a part-time junior developer on cross-platform mobile applications. Contributed to both frontend and backend development, focusing on user experience improvements and system performance optimization.",
     achievements: [
-      "Built RESTful APIs serving millions of requests",
-      "Improved system performance by 40%",
-      "Mentored junior developers",
-      "Implemented CI/CD pipelines"
+      "Built and maintained cross-platform mobile apps using Vue.js and Ionic",
+      "Launched new features that enhanced user retention",
+      "Improved backend performance by refactoring PHP code and building REST APIs",
+      "Reduced response latency by 20% through optimization efforts",
+      "Adapted to new tools and frameworks as needed, ensuring smooth progress on evolving project tasks"
     ],
-    skills: ["Backend", "APIs", "Node.js", "PostgreSQL", "AWS"]
+    skills: ["Vue.js", "Ionic", "PHP", "REST APIs", "Mobile Development", "Backend Optimization"]
   },
 ];
 

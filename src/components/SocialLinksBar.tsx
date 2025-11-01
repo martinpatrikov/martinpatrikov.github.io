@@ -10,7 +10,7 @@ const SocialLinksBar = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com", label: "GitHub", color: "hover:text-foreground" },
     { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn", color: "hover:text-primary" },
-    { icon: Mail, href: "mailto:contact@example.com", label: "Email", color: "hover:text-primary" },
+    { icon: Mail, href: "mailto:martin.patrikov@gmail.com", label: "Email", color: "hover:text-primary" },
   ];
   
   return (

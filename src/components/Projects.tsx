@@ -20,51 +20,20 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "DeFi Trading Bot",
-    description: "Automated trading system for decentralized exchanges with custom algorithms for arbitrage detection and execution.",
-    tags: ["Python", "Web3", "Trading"],
+    title: "Independent Trading & Market Simulation Platform",
+    description: "Comprehensive market simulation platform with custom matching engine and live order book system for algorithmic trading and strategy development.",
+    tags: ["Python", "Algorithmic Trading", "Market Simulation"],
     link: "#",
-    details: "This project implements a sophisticated automated trading system designed for decentralized exchanges (DEXs). The bot monitors multiple liquidity pools across different chains, identifying arbitrage opportunities in real-time. It uses custom-built algorithms that factor in gas costs, slippage, and market depth to ensure profitable trades.",
+    details: "Co-founded and lead the development of a comprehensive market simulation platform, initially designed for use in university hackathons. The platform provides a realistic trading environment where algorithmic bots can make markets and execute trades in a simulated setting.",
     features: [
-      "Real-time price monitoring across multiple DEXs",
-      "Automated arbitrage detection and execution",
-      "Gas optimization algorithms",
-      "Risk management and position sizing",
-      "Multi-chain support (Ethereum, BSC, Polygon)"
+      "Custom matching engine for trade execution",
+      "Live order book system for real-time market data",
+      "Algorithm evaluation metrics for strategy assessment",
+      "Support for algorithmic bots to make markets",
+      "Backtesting environment for quantitative strategy development",
+      "Platform suitable for hackathons and educational purposes"
     ],
-    technologies: "Built with Python, Web3.py, and integrated with various DEX protocols. Uses WebSocket connections for real-time data and implements MEV protection strategies.",
-    githubLink: "https://github.com"
-  },
-  {
-    title: "Blockchain Analytics Platform",
-    description: "Real-time blockchain data analysis tool for tracking transactions and market trends across multiple chains.",
-    tags: ["TypeScript", "React", "Blockchain"],
-    link: "#",
-    details: "A comprehensive analytics platform that provides real-time insights into blockchain activity. The platform aggregates data from multiple sources, processes millions of transactions, and presents actionable insights through an intuitive dashboard.",
-    features: [
-      "Real-time transaction tracking",
-      "Wallet analytics and profiling",
-      "Market trend analysis",
-      "Custom alert system",
-      "Historical data visualization"
-    ],
-    technologies: "Frontend built with React and TypeScript, backend uses Node.js with PostgreSQL for data storage. Integrates with multiple blockchain APIs and uses WebSocket for real-time updates.",
-    githubLink: "https://github.com"
-  },
-  {
-    title: "Portfolio Optimizer",
-    description: "Machine learning-powered tool for crypto portfolio optimization and risk management.",
-    tags: ["Python", "ML", "Finance"],
-    link: "#",
-    details: "An advanced portfolio optimization tool that uses machine learning algorithms to suggest optimal asset allocations based on historical performance, risk tolerance, and market conditions. The tool implements modern portfolio theory with crypto-specific adjustments.",
-    features: [
-      "ML-based portfolio suggestions",
-      "Risk-adjusted return optimization",
-      "Rebalancing recommendations",
-      "Correlation analysis",
-      "Backtesting capabilities"
-    ],
-    technologies: "Implemented in Python using scikit-learn, pandas, and numpy for ML and data processing. Uses historical price data from multiple exchanges and implements various optimization algorithms including mean-variance and Black-Litterman.",
+    technologies: "Architected and developed from the ground up using Python. Implemented custom matching algorithms and order book management systems. Currently evolving into a robust backtesting environment for personal quantitative strategy development.",
     githubLink: "https://github.com"
   },
 ];

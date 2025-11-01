@@ -23,8 +23,8 @@ const projects: Project[] = [
     title: "Independent Trading & Market Simulation Platform",
     description: "Comprehensive market simulation platform with custom matching engine and live order book system for algorithmic trading and strategy development.",
     tags: ["Python", "Algorithmic Trading", "Market Simulation"],
-    link: "#",
-    details: "Co-founded and lead the development of a comprehensive market simulation platform, initially designed for use in university hackathons. The platform provides a realistic trading environment where algorithmic bots can make markets and execute trades in a simulated setting.",
+    link: "https://tradeontale.com",
+    details: "Co-founded and lead the development of a comprehensive market simulation platform, initially designed for use in university hackathons. The platform provides a realistic trading environment where algorithmic bots can make markets and execute trades in a simulated setting. Available at tradeontale.com.",
     features: [
       "Custom matching engine for trade execution",
       "Live order book system for real-time market data",
@@ -157,6 +157,18 @@ const Projects = () => {
                   </div>
                 )}
 
+                {selectedProject.link && selectedProject.link !== "#" && (
+                  <a 
+                    href={selectedProject.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-primary hover:underline"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    Visit Website
+                  </a>
+                )}
+                
                 {selectedProject.githubLink && (
                   <a 
                     href={selectedProject.githubLink}

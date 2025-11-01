@@ -49,14 +49,6 @@ const Navigation = () => {
             >
               writings
             </Link>
-            <a 
-              href="https://tradeontale.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-primary hover:underline transition-colors"
-            >
-              tradeontale
-            </a>
           </div>
         </div>
       </div>
